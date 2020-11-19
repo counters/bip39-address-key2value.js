@@ -18,7 +18,7 @@ let bip39Address = new Bip39Address();
 const type = TypeBip39Address.ASCII; // 2
 const topic = 'key';
 const payload = 'Hello World';
-let address = bip39Address.encode(type, topic, payload)
+let address = bip39Address.encode(type, topic, payload);
 console.log(address); // 0248656c6c6f20576f726c64016b65790165b525
 ```
 
