@@ -1,0 +1,23 @@
+{
+  "name": "bip39-address-key2value",
+  "version": "0.0.1",
+  "main": "index.js",
+  "repository": "https://github.com/counters/bip39-address-key2value",
+  "author": "Webcounters <webcounters@gmail.com>",
+  "license": "LGPL-3.0-only",
+  "dependencies": {
+    "@agrora/decimal": "^0.2.1",
+    "node-crc16-js": "donvercety/node-crc16",
+    "webpack": "^5.1.3",
+    "webpack-cli": "^4.1.0"
+  },
+  "devDependencies": {
+    "mocha": "^8.2.1"
+  },
+  "scripts": {
+    "test": "mocha",
+    "build": "webpack",
+    "js": "webpack",
+    "jswatch": "webpack --watch"
+  }
+}
