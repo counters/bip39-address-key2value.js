@@ -2,6 +2,13 @@
 
 Javascript implementation for [bip39-address-key2value](https://github.com/counters/bip39-address-key2value) 
 
+
+### Compile
+```bash
+yarn install
+yarn build
+```
+
 ## Examples
 
 Encode
