@@ -4,7 +4,7 @@
   "main": "index.js",
   "repository": "https://github.com/counters/bip39-address-key2value.js",
   "author": "Aleksey Kukhnovets <webcounters@gmail.com>",
-  "license": "LGPL-2.1",
+  "license": "LGPL-3.0",
   "dependencies": {
     "@agrora/decimal": "^0.2.1",
     "webpack": "^5.1.3",
